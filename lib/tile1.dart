@@ -34,8 +34,8 @@ class _Tile1State extends State<Tile1> {
             children: [
               ClipRRect(
                 borderRadius: BorderRadius.circular(5),
-                child: Image.network(
-                  'https://t3.ftcdn.net/jpg/00/30/69/86/360_F_30698643_nQ78zqEFCtCUA77bgNaFRpR34FcIuJIY.jpg',
+                child: Image.asset(
+                  'images/img1.jpg',
                   height: 35 * height,
                   width: 45 * width,
                   fit: BoxFit.cover,

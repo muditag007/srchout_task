@@ -45,8 +45,8 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     ClipRRect(
                       borderRadius: BorderRadius.circular(50),
-                      child: Image.network(
-                        'https://images.unsplash.com/photo-1517404215738-15263e9f9178?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXJsfGVufDB8fDB8fHww',
+                      child: Image.asset(
+                        'images/img1.jpg',
                         height: 50 * height,
                         width: 50 * height,
                         fit: BoxFit.cover,
@@ -198,8 +198,8 @@ class _HomePageState extends State<HomePage> {
                                 // ),
                                 Expanded(
                                   child: Container(
-                                    child: Image.network(
-                                      'https://t3.ftcdn.net/jpg/00/30/69/86/360_F_30698643_nQ78zqEFCtCUA77bgNaFRpR34FcIuJIY.jpg',
+                                    child: Image.asset(
+                                      'images/img1.jpg',
                                       fit: BoxFit.cover,
                                     ),
                                   ),
